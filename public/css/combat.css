@@ -1,0 +1,41 @@
+.fight_panel .container_c .minions_panel .bob_minions ul li{
+    position: absolute;  top: .5vw;
+    transition: all .2s;
+}
+.fight_panel .container_c .minions_panel .my_minions ul li{
+    position: absolute; left: 0; top: .5vw;
+    transition: all .2s;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(1),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(1){
+    left: 1.4vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(2),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(2){
+    left: 9.8vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(3),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(3){
+    left: 18.2vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(4),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(4){
+    left: 26.6vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(5),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(5){
+    left: 35vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(6),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(6){
+    left: 43.4vw;
+}
+.fight_panel .container_c .minions_panel .bob_minions ul li:nth-of-type(7),.fight_panel .container_c .minions_panel .my_minions ul li:nth-of-type(7){
+    left: 51.8vw;
+}
+.fight_panel .close_btn{
+    position: absolute;right: 5vw; top: 5vw;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgb(177, 0, 0);
+}
+
+.fight_panel .begin_btn.active{
+    animation: click .3s linear 1;
+}
+
